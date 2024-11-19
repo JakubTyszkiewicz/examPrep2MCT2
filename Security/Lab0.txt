@@ -1,0 +1,19 @@
+Doel van lessen Security?: 
+• Security awareness (bewustwording)
+• Correcte nomenclatuur (communicatie)
+• Advies over verantwoordelijkheden
+• Inzien v/d consequenties v/h falen van security
+• Situeren en herkennen van problemen
+• Oplossingen correct implementeren
+• Correcte methodieken toepassen
+
+Inhoud:
+• Theoretisch kader
+• Praktische labosessies en demo’s
+
+Evaluatie van het vak:
+• Concepten en nomenclatuur
+• Werking van beveiligingstechnologieën
+• Kennis van best-practices
+• In staat zijn tot het identificeren van problemen
+• In staat zijn om verdedigbare tegenmaatregelen te kiezen en correct te implementeren
