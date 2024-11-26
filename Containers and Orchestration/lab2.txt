@@ -1,0 +1,115 @@
+Lab2: Docker usage
+
+Docker Hub:
+DockerHub provides a vast library of pre-built images and resources, accelerating development workflows and reducing setup time. 
+
+Docker registeries: (private registeries needs login credentials to acces images)
+An stateless highy scalable server-side application that stores and lets you distribute docker images.
+
+Docker Hub download rate limit:
+Docker Hub  limits the number of Docker image downloads "pulls" based of the account type of the user pulling the image.
+Pull rates limits are based on individual IP addres.
+
+Kinds of docker images:
+1.Docker Official image - quality images maintained by docker
+2.Verified Publisher - quality images maintained by 3-td party
+3.Sponsorerd OSS - images maintained by sponsored open source project.(quality and security can be questionable)
+4.Community - All the rest of any possible docker images.
+
+Searching docker images:
+-Docker Hub
+-Google
+command for searching an docker image = "docker search <keyword>"
+
+Getting docker images:
+docker pull <image name> -> donwloading image(layers)
+examples:
+1.docker pull elasticsearch
+• Official image  no company / username before repository name
+2.docker pull eslih/some-custom-image
+• Maintained by user eslih  namespace eslih, repository  some-custom-image
+
+Image tagging:
+Specific version, default: latest (no need to provide it).
+Important for versioning.
+
+Running containers:
+docker run <image name> <alternative command>
+• Wraps two commands in one:
+• docker create <image name> -> ‘register container’ = filesystem snapshot
+• docker start <container id> -> Start the container
+docker stop (graceful) / docker kill (immediate) 
+
+Interacting logs:
+No GUI (Gharapical user interface)
+docker exec -it <container id> <command>
+docker logs <container id>
+
+Clean the mess:
+“Remove unused data”
+command: docker system prune [OPTIONS]
+• --all / -a
+• --filter
+• --force / -f
+• --volumes
+
+Dockerfile:
+Instructions to build an image.
+Creating Dockerfile
+• Specify base image
+• Copy some files
+• Install programs
+• Specify startup command
+
+Dockerfile: instructions
+FROM
+RUN
+COPY
+ADD
+WORKDIR
+ENV
+VOLUME
+EXPOSE
+PORTS
+Dockerfile: instructions
+HEALTHCHECK
+CMD
+ENTRYPOINT
+LABEL
+ARG
+USER
+ONBUILD
+SHELL
+
+Dockerfile layers:
+Remember:
+• Some instructions = new image layer
+• Focus on RUN, COPY & ADD
+• Layers can be shared
+When building images
+ ->Cache is used
+ Single COPY instruction
+• Made a typo in “main.py”
+E.g., “Hello Wolrd”
+• Fix the typo
+What about dependencies?
+• Unchanged!
+• But… will be installed over again
+• Why?
+• The layer is changed (COPY ./ ./)
+
+Building containers:
+Dockerfile -> Image = Building containers
+command: docker build . [--tag name/project:tag] 
+
+Build process
+• Using cache whenever possible
+(= faster builds)
+• Using intermediate containers
+• Order of instructions does matter!
+docker commit -c <startup command>
+• Make an image from existing container
+
+How is the file called?
+• By default… Dockerfile (no extension or whatsoever)
+• Dockerfile.dev  docker build -f Dockerfile.dev

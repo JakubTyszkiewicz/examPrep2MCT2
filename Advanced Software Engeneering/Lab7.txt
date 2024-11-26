@@ -1,0 +1,15 @@
+Topic Delegates:
+
+Definition: datatype waarin daje een methode insteekt
+Purpose: Allows methods to be passed as parameters
+Use cases: Event handling, callback methods, LINQ, etc.
+
+declaration
+
+delegate int NumberDelegate(int number);
+
+Classe rond delagate Func<T,RESULTS>
+
+Events: gebeurtenis
+publisher
+subscriber

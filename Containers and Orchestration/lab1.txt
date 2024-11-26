@@ -1,0 +1,54 @@
+Lab1: Docker introduction
+
+What is docker?:
+Ecosysteem for running and creating containers.
+
+Waarom gebruiken we docker?:
+Docker want to make it possible to run and install any software on any system.
+
+Microservices:
+Software development technique that structures an application as a collection of loosely coupeld servives.(Microservices does not mean contenatisation but it`s an logical step)
+
+Monolithic Containerized application:
+An application that has most of it`s functionality within one proces/container.
+
+Moore`s law:
+The number of transistors on microchips doubles every 2 years.
+
+Data center:
+A physical location that stores computing  machines and their related hardware equipment.
+Data center is devided in Units and Power Usage.
+
+Hardware virtualization:
+A technology that enables multiple virtual machines to run simultaneously on a single physical computer. (In order to use hardware virtualization you need an Hypervisord example: Oracle virtual box)
+
+Virtual machines:
+An abstraction of physical hardware truning one server into many servers.
+
+SSD:
+Solid state disk.
+
+Kernel:
+Piece of software that offers basic functionalties to the OS. (bridge between hardware and software, size of a kernel 1MB-30MB morden ones more than 50MB)
+
+Shared kernel:
+Docker shares the host OS kernel.
+Ubuntu requiers Linux kernel(but i ran it on Windows)?:
+You can use Oracle Virtual Box or WSL(Windows subsysteem for linux).
+
+WSL?:
+Compatibility layer that enables to run Linux distributions natively
+Allows to run Linux without a virtual machine.
+
+Containers:
+One or multiple running proces.
+2 main components of a container:
+Namespaces = Isolating resources per process (or group of processes)
+Cgroups = Limiting resource usage per process (or group of processes)
+
+Image:
+Filesysteem snapschot. (instance of an image = container)
+
+OS:
+Manges hardware, software and provides services.
+
