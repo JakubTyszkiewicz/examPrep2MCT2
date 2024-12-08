@@ -1,0 +1,59 @@
+Acces:
+
+Beveiligen van toegang:
+-weten
+-hebben
+-zijn
+Wachtwoorden: meest bruikbare vorm van identificatie
+Kenmerken van voldoende sterk wachtwoord:
+-12 karakters
+-verschillende soorten tekens
+-geen bestaande woorden of logische tekens
+
+Sterkte = entropie
+Beste wachtowwrden zijn vooral lang
+Do`s:
+-Let erop dat het wachtwoord voldoende sterk is
+-Gebruik geen logisch patroon
+-Mijd hergebruik voor verschillende diensten
+-Wijzig je wachtwoorden regelmatig
+-Leen nooit een wachtwoord uit aan iemand anders
+-2 factor authenticatie
+-gebruik wachtwoord kluis
+Dont`s:
+-Opgelet voor wachtwoorden in woordenlijsten
+-Vaak gebruikte wachtwoorden zijn gekend
+-Enorme lijsten met wachtwoorden zijn beschikbaar
+-Vaak succesvolle aanval op anders toch complexe wachtwoorden
+-gebruik altijd andere wachtowoorden
+
+Combinatie van veel authenticatiemethodes verhoogt veiligheid
+
+SS0 System:
+Single sign in
+Vaan gebruikt door grote bedrijven(google facebook twitter)
+SAML:
+-Security Access Markup Language
+-Exchange of identification information
+
+OAuth
+-Open Authorization
+Encrypted exchange of identification information
+-
+OIDC
+-OpenID Connect
+-Extension of Oauth 2.0
+-Allow a single session across multiple applications
+
+Privilige escalation:
+-Zichzelf een ander gebruikersniveau
+-Horizontale escalation;
+    Session hijacking van een andere gebruiker
+-Verticale escalation;
+    Meer machtigingen verwerven
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+Lab2: Backend services and azure functions 
+
+The Internet of Information:
+It's about webpages with content Searching for information Accessing information E-commerce Social networks.
+Examples:
+-technology
+-HTML
+-Css 
+-Javascript
+-PHP
+
+The internet of services:
+• Connectivity
+• Driving factor for mobile applications
+• Cross-platform
+• Easy data deletion
+• Easy invocation of functionality
+• Central focus on Cloud platforms
+• REST-Based
+
+The Internet of Things:
+• Connecting hardware
+• Linking devices to the internet
+• Transmitting information to the cloud
+• Devices communicate with each other
+• M2M (machine-to-machine)
+• Communication to/from the device
+• We can send messages to the device
+• We receive messages from the device in the cloud
+
+Internet of Things and Internet of Services overlap.
+
+How does HTTP work?
+Definiton: Hyper text transfer protocol.
+It is in application layer on OSI model.
+Properties of HTTP:
+• Underlying protocol on which the Internet operates
+• Retrieving text and files from servers
+• Requests are typically made by web browsers but also smartphones and IoT devices
+• HTTP determines how a request and response should appear
+• HTTP includes a set of commands (HTTP Verbs)
+• HTTP is stateless, meaning it does not consider previous requests
+• HTTP is not sessionless; we can use cookies (client-side) to track data
+• HTTP is relatively straightforward
+
+HTTP verbs:
+• GET Retrieve data (Safe => no server-side changes) (SELECT)
+• POST Add data: e.g., form submissions (INSERT)
+• PUT (Idempotent => multiple requests => same effect) (UPDATE)
+• DELETE (Idempotent => multiple requests => same effect) (DELETE)
+
+HTTP respones (status codes):
+• 1xx: Informational
+• 2xx: Success
+• 3xx: Redirection
+• 4xx: Client error
+• 5xx: Server error
+
+HTTPS: Hyper text transfer protocol Secure
+Securing transport
+• Not securing the data itself
+• De facto standard; you shouldn't really deploy without HTTPS
+• Browsers already report this, e.g., Chrome
+
+What are web services?
+Technology used for enabling communication and
+data exchange between different software applications over the
+internet.
+
+Anatomy of Web Services:
+Client < -- network -- > Server
+
+Formats of webservices:
+-XML
+-JSON = javascript object notation
+
+Properties of JSON:
+JSON = JavaScript Object Notation.
+• It's a simple and very lightweight format.
+• We enclose everything in curly braces.
+• We write the keys in lowercase.
+• The basis is key:value pairs.
+• Keys are ALWAYS enclosed in quotes.
+• We separate them with a colon.
+
+What if something goes wrong?
+• What should I return?
+• NEVER, under any circumstances, send Exceptions or internal system error
+messages back to the client in production systems.
+• Return an HTTP status code Internal Server Error 500 along with potentially
+some information that you generate.
+• Think about what information you want to include in the error message.
+• No connection information.
+• No database names.
+• No SQL statements
+
+Web Services are stateless:
+• Do not keep client state on the server side.
+• Do not use sessions.
+• With each request to the server, you must send all the information so that the server
+can handle the request.
+• Each request is independent of the others.
+• This increases scalability.
+
+How do we create Web services?
+• Every platform has support
+• PHP
+• Laravel , Lumen, Wave, ..
+• Javascript
+• NodeJS
+• Python
+• Eve, Flask-Restfull
+• .NET
+• ASP.NET Core met C#
+• Azure Functions
+• With C# , NodeJS or Python
+
+Azure functions:
+• Azure Functions is a serverless compute service that allows you to run small pieces
+of code (called “functions”) without needing to manage infrastructure.
+• Functions are triggered by events such as HTTP requests, database changes,
+message queues, timers, etc.
+• Automatically scales to handle workload spikes. Resources are allocated
+dynamically, so you only pay for what you use.
+• C#, JavaScript, Python, Java, PowerShell, and more.
+• Process real-time data.
+• Handle background tasks.
+• Execute scheduled jobs.
+• Respond to HTTP requests and webhooks
+
+Azure Functions Security
+• Everyone can call the function.
+• No control over who does what.
+• A hacker can increase the bill by constantly invoking the service.
+• Other regular users will experience slower API calls.
+• In concrete terms, we need to try to avoid this situation.
+
+Function Key
+• A key that can only be used
+with the selected function.
+Admin Key
+• We can use this key for all
+functions within the
+application.
+
+How to call Azure Functions API's
+4 scenarios:
+• 1. HTTP GET to retrieve data from a Webservice on Azure.
+• 2. HTTP POST to send data to a Webservice on Azure.
+• 3. HTTP PUT to update data.
+• 4. HTTP DELETE to remove data.
+
+Possible exam questions:
+
+What is important from this lesson?
+1. What types of "Internet" are we talking about?
+2. What are Web services and their properties?
+3. When should you use GET, POST, PUT, DELETE?
+4. Which HTTP verbs are idempotent?
+5. Which status codes should I return?
+6. What is JSON, and ensure you can manually write JSON?
+7. How can you call Azure Functions from Python?
+8. What types of Azure Functions are there?
+9. What is a cron expression?

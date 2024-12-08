@@ -1,0 +1,60 @@
+Ethics:
+
+Deel 1 - Privacy
+
+GDPR - General Data Protection Regulation
+AVG - Algemene Verordering Gegevensbescherming
+Wat is GDPR:
+Europese regelgeving om databeveilinf te versterken en te uniforimiseren doorheen de Europese
+
+Gestaart in 2012, klaar in 2015 opgangsperiode van 2 jaar van kracht 25 mei 2018
+
+Doel van GDPR:
+Protect Control Unify Simplfy
+
+Persoonsgegevens:
+-je naam
+-anders
+-gsmnummer..
+
+DPO - Data Protection Officer
+ORGANISATIES MOETEN PERSOONSGEGEVENS BESCHERMEN VOLGENS DE
+RISICONIVEAU’S
+EN MOGEN GEGEVENSBESCHERMING NIET ZIEN ALS EEN BIJZAAK
+
+Dataleak - je hebt 72h om te informeren
+Boete: 4%omzet of 20.000.000 euro
+
+Strategieen voor gegevensbescherming:
+-anonimisatie: Anoniem maken door delen van de
+informatie te veranderen of weg te
+laten
+-pseudoniemiesatie: De informatie splitsen waardoor de
+persoon niet identificeerbaar is met
+slechts 1 deel van de informatie
+-toegangscntrole: Toegang tot de informatie
+controleren en verhinderen met
+behulp van technische maatregelen
+
+Deel 2 ethicks:
+ethiek - wat is geoorloofd gedrag wat betereft Persoonsgegevens
+Acceptable Use Policy (AUP)
+• Document met regels wat je als werkgever aanvaardbaar vindt
+• Geeft vaak de indruk de gebruiker te willen beperken
+• Probeert een balans te vinden tussen acceptabel risico en bruikbaarheid
+• Is noodzakelijk om de systemen beheerbaar te houden
+• Dient steeds strikt te worden opgevolgd!
+
+Frameworks:
+Maak gebruik van frameworks om AUP te bepalen
+In dit gevaal gaan we NIST CSF gebruiken
+onderdelen:
+-recover 
+-indentify
+Protect 
+-detect
+-respond
+-govern
+
+CA081“Controle van internet- en e-mailgebruik op het werk”
+De controle moet een gerechtvaardigd doel nastreven

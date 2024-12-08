@@ -1,0 +1,31 @@
+Beveiligen:
+
+Shodan search engine demo:
+Zoekt naar geconecterde devices zoals webcams videofoons en zo verder, windturbines en PLC`s
+
+ICT Security is zeer complex en her omvat zeer diverse kennisdomeinen
+Het wordt ook heel vaak over-gesimplifeerd
+
+Usability/Security:
+Totale security is enkel mogelijk bij onbestaande Usability
+Optimale usability is enkel mogelijk bij openstaande security.
+
+Tegenmaatregelen dat we kunnen nemen:
+-Corporate policy - Training - Awareness
+-Coding practices
+-Testing (pentesting)
+-Vulnerability manegmen
+-Backup
+-Disaster recovery plan
+-Fysieke Security
+-Firewalls
+
+Defense in depth:
+-Layered security
+-Strategie bij incidenten
+-plannen en documenteren 
+
+ICC/ Belgian Cyber security Guide
+-checklist
+-Do`s & Dont`s
+http://iccbelgium.be/becybersecure/

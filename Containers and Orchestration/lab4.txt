@@ -1,0 +1,39 @@
+Lab4: Docker compose usage
+
+Docker Compse:
+A tool that allows you to manage and define a multi-container Docker application.
+
+Pro`s:
+Easier to run  (multiple) containers:
+-no huge list of parameters
+-declarative YAML file
+command: 
+docker build .
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app ca6cc440a6ef
+
+docker-compose.yaml
+(others can, but need to specify explicitly)
+Running multiple containers with one
+command
+Easy to configure “relations” between
+containers
+• "depends_on"
+• service name
+
+Docker compose version:
+• Ensures compatibility across different Docker and Docker Compose versions
+• Defines syntax and feature support for correct interpretation
+• Prevents issues with outdated or incompatible Compose files
+• Future-proofs your deployment against changes in Docker Compose
+
+Docker compose makes it easier to run multiple services and makes it possible to configure the relations between services.
+Useful commands for Docker Compose:
+docker compose start --> Only starts
+docker compose up --> Create & start
+docker compose stop --> Stop
+docker compose down --> Stop and clean
+docker compose restart --> Restart & apply changes
+
+Never user docker-compose -> legacy(outdated asf)
+docker compose is is what you need:
+- integrated with 

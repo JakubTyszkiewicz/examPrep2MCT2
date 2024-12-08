@@ -1,0 +1,143 @@
+Lab1: Introduction Azure Cloud
+
+What is cloud computing?
+Delivery of computing services—including servers, storage, databases, networking, software, analytics, 
+and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, 
+and economies of scale.
+
+Properties of cloud computing:
+- no hardware of your own
+- unlimited computing power 
+- unlimited storage capacity
+- Scaling up and down on demand or automatically
+- Scaling in and out on demand or automatically
+- Geographical distribution
+- Pay what you use
+
+Kinds of cloud computing:
+
+1. On premise
+• IT Department is responsible for EVERYTHING
+• Backup & recovery
+• Hardware purchase
+• Sometimes investing in hardware that you only
+need for a limited number of days ex: webshop
+and Christmas period
+• Scaling...
+• Most freedom to work
+• Sometimes required by legislation
+• Medical data
+• Financial data
+• Lack of trust with public cloud provider (cfr
+NSA)
+
+2. IaaS (infrastructure as service)
+• Don't buy your own hardware
+• We rent virtual machines in Cloud
+environment
+• System administrator must configure and
+secure and update server himself
+• A lot of flexibility towards software
+installation
+• A lot of freedom but also responsibility
+• You have to do scaling yourself (sometimes
+auto scaling possible)
+• Widely used for migration existing On
+Premise to cloud
+
+3.PaaS (plaform as service)
+• No system administrator needed
+• Developer creates application and
+"places" it on the Cloud platform
+• We should not worry in servers,
+hosting, backups, scaling,... The
+platform will manage this for us
+• A lot of flexibility
+
+We will mainly use this in the Cloud Services node_modules
+
+4.SaaS (software as service)
+• Software usually does not run locally
+(exception Adobe & Office)
+• We pay per month/per user
+• Flexible subscriptions, quick to set up
+• We should not take into account
+backups and up time
+
+5.Hybrid Cloud (On Premise & Cloud)
+• Connect your own data center to a cloud environment
+• Certain services run in a cloud environment, others in their own data center
+• Run heavy load on the cloud
+• Certain data may NOT be stored in the cloud, e.g. medical
+• Can also be used in backup scenarios
+
+Public Cloud Vendors:
+-AWS 
+-Azure
+-Google Cloud
+
+Why do we choose Microsoft Azure?
+- Open source
+- Good tool and documentation
+- Very low entry for students
+
+Azure regions?:
+-Azure Regions are physical locations around the world where Microsoft Azure’s
+data centers are located. Each region contains multiple data centers that are
+equipped with independent power, cooling, and networking
+
+Purpose of Azure regions:
+- Redundancy and Availability: Regions are set up to provide redundancy and
+ensure high availability for applications and services by distributing them across
+different locations.
+- Compliance and Data Residency: Certain regions are designed to meet specific
+data residency and compliance requirements, which is essential for industries like
+healthcare, finance, and government.
+
+Examples of Azure Regions:
+United States: North US, East US
+Europe: North Europe, West Europe
+Asia: East Asia, South East Asia
+
+Paired regions:
+Azure links regions in pairs within the same geography to ensure data resiliency
+and to support disaster recovery.
+
+Considerations When Choosing a Region
+- Latency: Choose a region close to your users to reduce latency.
+- Compliance: Ensure the region complies with local data regulations.
+- Service Availability: Not all Azure services are available in every region; verify
+that the services you need are offered in your selected region.
+- Cost: Costs may vary between regions, so consider your budget when
+choosing a region.
+
+Azure subscriptions:
+- Subscription will determine how they invoice
+- Different options
+- Buy credits in advance
+- Pay by use
+- In practice: one subscription per customer
+- For our lessons this does not matter so much we have the "free subscription"
+
+Azure Portal:
+Tool for managing your Cloud services and applications
+
+Resource group:
+A container that holds related resources for an Azure solution. 
+
+Azure Virtual Machines (IaaS)
+1. Private server on Azure environment
+• Mostly on-premises server that we virtually move to Azure
+2.A lot of possibilities
+• File servers
+• Database servers
+• Webservers
+• Application servers
+• AI Training Servers with NVidia H100
+• …
+3. Access resources on server that are not possible via a web application
+• Bv. communication with older software packages
+• Generation of Word/Excel documents
+DISCLAMER full control over an solution.
+
+

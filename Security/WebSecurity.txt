@@ -1,0 +1,22 @@
+Web security
+• Een belangrijke attack surface / point of entry
+• Belangrijk naar reputatie
+• CMS-Systemen (wordpress, drupal, joomla, ..)
+• SQL injection
+• Authenticatie / escalation
+• Cross site scripting
+OWASP https://www.owasp.org (bekijken)
+
+Web security: (weet wat het is)
+Vaak voorkomende problemen
+SQL-Injection
+Cookie stealing
+URL Modification
+XXS
+
+Web security - Remediation
+• Don’t be stupid
+• Gebruik sanitation LIB’s (no DIY!)
+• Update site framework, plugins & libs !!!
+• Prepared statements
+• Authenticatie frameworks

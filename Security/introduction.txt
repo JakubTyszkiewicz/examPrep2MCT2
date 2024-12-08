@@ -1,0 +1,42 @@
+Introduction to IT security
+
+Hoofdgedachte van dit module: niet iedereen heeft even goede bedoelingen
+Groote hoeveelheid van mensen = veel potentiele slachtoffers
+Internet -> zeer gevaarlijke plek, er zijn veel potentiele slachtoffers en is zeer makkelijk bereikbaar
+
+4 belangerijke gedachten:
+1.Er is geen magische oplossing voor security
+2.Iedereen is verantwoordelijk
+3.Tegenmaatregelen nemen
+4.Altijd alert en voorzichtig zijn
+
+Tegenmaatregelen zijn allen nuttig als ze effectief gebruikt worden
+Ze zijn ook lastig en ambetant maar ze zijn wel noodzakelijk
+
+theoritische modelen:
+CIA (het is belangerijkste Theoritische model dat we gaan zien):
+• Confidentiability = Vertrouwelijkheid
+• Integrity = Integriteit
+• Availability = Beschikbaarheid
+
+NIST CSF - NIST Cyber Security Framework (zie powerpoint)
+Lockhead Martin Cyber Kill Chain(zie powerpoint)
+People-Process-Technology
+
+Bedreiging / Kwetsbaarheid (important concept)
+• Threat (bedreiging)
+• Vulnerability (kwetsbaarheid)
+
+Doelen dat vaak bedreigd worden:
+-infrastuctuur
+-gegevens
+-operationliteit
+
+Risico
+• Bedrijfsimpact van het risico bepaalt de opportuniteit van de beveiligingsinvestering
+• Bepalen van de financiële impact van een incident is uitermate bedrijfsspecifiek
+• De mate van bedreiging is niet beheersbaar
+• De kwetsbaarheid is te reduceren door de implementatie van tegenmaatregelen
+
+Risk = ((Vulnerability* Threat)/Counter Measure Score)) * Valuation
+

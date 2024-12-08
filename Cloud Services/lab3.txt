@@ -1,0 +1,47 @@
+Lab3: Azure storage
+
+Types of data:
+- Unstructured data
+• Video
+• Images
+• PDF, Word, Excel,…
+- Structured data
+• SQL Database
+- Semi Structured data (document storage)
+• JSON
+• XML
+
+Azure storage account:
+Storage of data in a Cloud environment
+Properties:
+• Highly flexible in usage and pricing
+• Unlimited storage
+• Accessible via DNS name:
+• https://nameofthestorageaccount.blob.core.windows.net
+• https://nameofthestorageaccount.file.core.windows.net
+• Always 3 copies of the data on multiple racks and disks"
+
+LRS (Local redundant storage)
+ZRS (Zone redundant storage)
+GRS (GEO Redundant storage)
+GZRS (GEO zone redundant storage)
+(Look powerpoint dia 9 in order to get visual explanation)
+
+6 types of storage:
+• 1. File
+• 2. Disk
+• 3. Blob
+• 4. Queue
+• 5. Table
+• 6. Data Lake
+
+Azure Storage account is foundation for many Azure services
+
+Blob:
+• Block Blob: Used for unstructured data, such as files. By default, it doesn't have
+folders, only a container. This can be addressed by enabling ADLS Gen 2.
+• Page Blob: Suitable for random read and write operations, often used for VM
+disks.
+• Append Blob: Designed for appending blocks, particularly useful for logging.
+• Table:Stores data as key/value pairs in a table, representing semi-structured data.
+

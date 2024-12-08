@@ -1,0 +1,40 @@
+Back-up
+Eigenschappen van correcte back-up:
+• Offline ! ? ?
+• Beveiligd tegen aanpassing (Integer)
+• Betrouwbaar
+• Beschikbaar (Available)
+• Veilig opgeslegen (Confidential)
+→ CIA all over again...
+
+Back-up
+Cloud Back-up ?
+• Wat met aansprakelijkheid?
+• Wat met beschikbaarheid?
+• Wat met vertrouwelijkheid?
+→ Wetgeving ?
+• Wel zeer eenvoudig en gemakkelijk 
+
+Back-up policy
+• Back-up frequentie
+• Back-upstrategie
+• Type van back-up
+• Opslag van back-up
+• Dicht bij de server voor snelle toegang
+• Op een andere locatie voor veiligheid
+• Controle van integriteit back-up
+• Testen van disaster-recovery plan
+
+Back-up policy
+• Grootvader– vader– zoon- systeem
+• Backup-rotatie
+• Archivering
+• Backup moet zowel:
+• ACTUEEL zijn
+• Alsook voldoende teruggaan in de tijd
+
+Belangrijk
+CIA over de gehele lijn
+Moet worden getest
+Moet effectief worden uitgevoerd
+Want met goede voornemens...

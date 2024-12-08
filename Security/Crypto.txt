@@ -1,0 +1,77 @@
+Crypto:
+
+Encryptie:
+-geheimhouding
+-authenticatie
+-integriteit
+
+Symmetrische Encryptie:
+Geheimhouding
+GEEN authenticatie
+Eenvoudig
+SNEL
+Voorbeeld: DES
+• Block-cipher van 64 bit
+• 16 encryptiecycli met telkens andere subkey
+• Bitlengte van de sleutel is bepalend, 56bit is
+   tegenwoordig te laag
+
+Asymmetrische Encryptie:
+Public key encryptie; voorbeeld: RSA, ECC
+Geheimhouding
+Authenticatie
+Werkt met sleutelPAREN
+• Private sleutel
+• Publieke sleutel
+Zeer berekeningsintensief
+
+Hashing:
+-Message Digest; voorbeeld: MD5, SHA2, …
+-Variabele inputlengte
+-Vaste outputlengte
+-Kleine inputvariate resulteert in grote outputvariatie
+-Niet reversibel
+
+Diffie-Hellman exchange:
+uitwisselen van een shared key
+
+PKI: public key infrasctucture:
+-Encryption of data in transit
+-Key exchange
+-Authentication of client
+-Authentication of server
+
+-Confidentiality
+-Integrity
+
+PKI - certificates:
+Trusted door CA(certificate authority)
+implementation:
+-CA has public and private key
+-“CA Client”  (server) has public and private key
+-Public key of the “client” is signed by the CA
+-Certificated server is trusted by the client as the client trusts the CA
+
+Signing = Asymmetrische cryptographie + hashing = signing:
+-Content is hashed
+-The hash is encrypted with the private key of the CA
+-Thus, the hash value can be decrypted by anyone using the public key of the CA
+-It is certain that the hash was authentic as only the private key of the CA could have encrypted the hash that can be decrypted by the public key of the CA
+-The content is hashed, and this hash is compared with the decrypted hash value
+
+Certificate properties:
+-Serial number
+This number distinguishes the certificate from other certificates.
+-Algorithm information 
+    The issuer uses this algorithm to sign the certificate.
+-Issuer
+    This is the name of the CA that issued the certificate.
+-Validity period of the certificate 
+    These are the start and end dates that define when the certificate is valid.
+-Subject distinguished name 
+    This is the name of the identity to which the certificate is issued.
+-Subject public key information 
+    This is the public key that is associated with the identity.
+
+
+

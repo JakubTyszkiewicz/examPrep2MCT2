@@ -1,0 +1,15 @@
+Lab3: Common mistakes
+
+Optimizing dockerfile:
+How to obtain information about the layers comprising an image?:
+command: docker image history <image | container_id>
+
+RUN,ADD,COPY
+= new read-only layer
+
+Use requirements.txt files
+Why optimalization?
+It`s a lot faster.
+With optaimalization for an small aap 2 seconds and without 23 seconds.
+
+

@@ -1,0 +1,77 @@
+
+Threats 2: Kwetsbaarheden en Tegenmaatregelen
+Kwetsbaarheden (Vulnerabilities)
+Definitie: Zwakke punten in systemen, technologieën, of processen die kunnen worden misbruikt door bedreigingen.
+
+Softwarekwetsbaarheden
+-Logische fouten: Ontwerp- of implementatiefouten.
+-Programmeerfouten: Bugs die beveiligingslekken veroorzaken.
+-Lage kwaliteit van testen (QA): Onvoldoende testen resulteert in kwetsbaarheden.
+-Kwetsbaarheden in externe bibliotheken: Open-source of externe componenten kunnen risico’s introduceren.
+-Technologische evolutie
+-“Today’s tech is the best, but it’s broken”: Nieuwe technologieën bieden mogelijkheden maar bevatten ook gebreken.
+
+Man-in-the-Middle (MiTM)-aanval
+-Intercepteren van communicatie tussen twee partijen zonder hun medeweten.
+
+Oversharing op sociale media
+Voorbeeld: Het delen van je creditcard- of betaalkaartinformatie.
+
+Metadata
+Data over data, zoals locatie, tijdstip of apparaatinfo. Deze informatie kan gevoelig zijn.
+
+Draadloze apparaten
+Kwetsbare draadloze protocollen: Gevoelig voor exploits, zelfs vanaf grote afstand.
+Onveilige links / Geen HTTPS
+HTTPS biedt encryptie, maar niet alle HTTPS-websites zijn betrouwbaar.
+Homoglyphs: Misleidende tekens in URL's die lijken op legitieme links.
+Cloud-diensten
+Gebruik van meerdere clouddiensten kan gevoelige informatie lekken.
+Clouddiensten zelf kunnen kwetsbaarheden bevatten.
+Mobiele apparaten
+Apparaatstoringen: Alle apparaten falen uiteindelijk.
+Gegevensbewaring: Oude data kan worden misbruikt voor toekomstige cybercriminaliteit.
+
+Strategieën voor risicobeheersing (Risk Coping Strategies)
+-Risk Acceptance: Accepteren dat een risico aanwezig is.
+-Risk Avoidance: Vermijden van het risico.
+-Risk Mitigation: Maatregelen nemen om het risico te verkleinen.
+-Risk Transference: Het risico overdragen, bijvoorbeeld via verzekeringen.
+-Ignore It: Risico negeren (vaak onverstandig).
+
+Belangrijke tegenmaatregelen
+-HTTPS
+-Versleutelt communicatie van eindpunt tot eindpunt.
+-Certificaten bieden een niveau van vertrouwen, maar zijn niet onfeilbaar.
+-Back-ups
+Drievoudige strategie:
+-Cloud
+-Externe SSD of harde schijf
+-Lokale kopie
+Software-updates
+-Regelmatig uitvoeren; ontwikkelaars corrigeren fouten door updates.
+
+Systeembeveiligingstools
+Firewall: Beschermt tegen ongeoorloofde toegang.
+Antivirussoftware: Helpt tegen malware, maar is zelf ook kwetsbaar.
+Authenticatie & Autorisatie
+Definities:
+
+Authenticatie: Bevestigt dat gebruikers zijn wie ze beweren te zijn.
+Autorisatie: Geeft gebruikers toestemming om bronnen te gebruiken.
+
+Belangrijke factoren in authenticatie
+SOMTEHING YOU HAVE SOMTEHING YOU KNOW SOMETHING YOU ARE
+Iets dat je hebt:
+Wachtwoord: Moet sterk zijn (hoge entropie), maar wordt steeds minder veilig.
+Multi-Factor Authenticatie (MFA): Extra beveiliging via een code op je telefoon.
+FIDO U2F: Hardwaretokens voor verificatie.
+Iets dat je weet:
+Pincode, swipepatroon.
+Iets dat je bent:
+Biometrische gegevens zoals vingerafdruk of gezichtsherkenning.
+Gegevensversleuteling (Storage Encryption)
+Beschermt gegevens tegen ongeautoriseerde toegang, zelfs als het apparaat wordt gestolen.
+
+Bewustwording (Awareness)
+Belangrijkste tegenmaatregel: Gebruikers moeten zich bewust zijn van bedreigingen en leren hoe ze risico’s kunnen vermijden. Alle data die beschikbaar is, zal uiteindelijk lekken: daarom is voortdurende waakzaamheid essentieel.

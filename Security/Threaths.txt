@@ -1,0 +1,96 @@
+Threats (Bedreigingen)
+Definitie: Bedreigingen zijn risico’s die één of meerdere doelen aanvallen. Ze kunnen toevallig of gepland zijn en worden uitgevoerd door agenten of organisaties.
+
+Soorten bedreigingen
+-Systeemfouten
+-Defecten of storingen in systemen zonder externe invloed.
+
+Gebeurtenissen
+Externe omstandigheden die schade veroorzaken:
+
+-Brand
+-Stroomuitval
+-Intern
+-Bedreigingen binnen een organisatie:
+
+-Wraak
+-Diefstal
+-Extern
+Bedreigingen van buiten de organisatie:
+
+-Hackers
+-Spionage
+-Phishing
+Definitie: Een vorm van oplichting via e-mail met een onwaarschijnlijk verhaal, vaak moeilijk te herkennen. De aanvaller probeert via malafide links toegang te krijgen tot data of apparaten.
+
+Soorten phishing:
+
+-Spear phishing: Gericht op specifieke personen of organisaties.
+-Double barrel attack: Dubbele aanvallen om vertrouwen te winnen.
+Vergelijkbare methoden:
+
+-Smishing: Phishing via SMS.
+-Vishing: Phishing via video.
+Money Mules
+Definitie: Personen die geld van een derde partij ontvangen en doorsturen naar anderen. Vaak gebruikt in criminele netwerken.
+
+Malware
+Definitie: Kwaadaardige software die schade aanricht aan systemen.
+
+Ransomware
+-Versleutelt data en maakt het onbruikbaar totdat losgeld wordt betaald.
+Let op: Niet alleen pc's, maar ook ziekenhuizen en vliegtuigen zijn kwetsbaar.
+Preventie: Regelmatige back-ups.
+
+Trojan Horse
+-Vermomt zich als legitieme software maar voert kwaadaardige acties uit.
+
+Adware
+-Toont ongewenste advertenties.
+
+Spyware
+-Verzamelt en stuurt persoonlijke gegevens zonder toestemming.
+
+Viruses & Worms
+-Reproduceren zichzelf en verspreiden zich over systemen.
+
+Hardware Threats
+Definitie: Fysieke apparaten die informatie stelen of schade veroorzaken.
+
+Keyloggers: Registreren toetsaanslagen.
+USB Rubber Ducky: Usb-stick die schadelijke code uitvoert.
+USB Killer: Vernietigt hardware door stroompieken.
+O.MG Cable: USB-kabel met ingebouwde exploits.
+Evil Twin Access Point: Vals WiFi-netwerk om gegevens te stelen.
+Network Implant: Geavanceerde hardware voor netwerkspionage.
+Social Engineering
+-Definitie: Psychologische manipulatie van mensen om vertrouwelijke informatie te verkrijgen of acties te laten uitvoeren.
+
+Agenten (Bedreigers)
+Definitie: Entiteiten die bedreigingen uitvoeren. Ze kunnen intern of extern aan een organisatie zijn.
+
+Kwetsbaarheid door:
+
+-Toegangsniveau
+-Kennis van de organisatie
+-Motivatie
+Voorbeelden:
+
+Ontslagen werknemer: Heeft nog toegang en kennis, vaak met negatieve motivatie.
+Stereotype hacker: Beïnvloed door media, rolmodel in subculturen.
+Hackers
+Definitie: Personen met technische kennis die beveiligingssystemen proberen te omzeilen.
+
+Typen hackers (hoofddeksels):
+
+Black Hat: Kwaadaardige hackers.
+White Hat: Ethische hackers die systemen verbeteren.
+Gray Hat: Hackers met zowel goede als slechte intenties.
+Ethical Hacker:
+
+Kan bijdragen aan betere beveiliging.
+Voorbeeld: Penetratietests en bug bounty-programma's.
+Threat Intelligence
+Definitie: Inzicht krijgen in vijanden om risico’s beter te begrijpen. Dit is essentieel voor het bepalen van tegenmaatregelen.
+
+Belang: “Know your enemy” helpt risico’s inschatten en beslissen over beveiligingsstrategieën.

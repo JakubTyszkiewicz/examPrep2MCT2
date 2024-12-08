@@ -1,0 +1,36 @@
+Beshikbaarheid:
+High availability
+• High availability op netwerkniveau
+• High availability systemen
+• Clusters
+• Redundante servers
+• Redundante server ruimte (disaster center)
+• Virtualisatie
+
+Externe netwerk bedreigingen
+• DoS
+• DDoS
+• Portscanning
+• Sniffers
+• Man in the middle
+• Spoofing
+• ...
+
+Denial of Service (DoS)
+• E-mail bommen
+• Repetitive login
+• SYN-Flood
+• UDP-Flooding
+• Ping of Death
+
+Distributed DoS (DDoS)
+• DoS simultaan vanuit verschillende locaties
+• Zeer moeilijk tegen te houden
+• Meestal zijn de “drones” geïnfecteerde thuis-PC’s
+
+Spoofing
+Het vervalsen van informatie in de header
+• IP Spoofing
+• MAC Spoofing
+• Email spoofing
+• ...
