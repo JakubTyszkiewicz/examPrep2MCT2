@@ -1,0 +1,43 @@
+kubernetes 1:
+What is kubernetes?:
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, 
+that facilitates both declarative configuration and automation. 
+
+What is kubernetes doing?:
+-Kubernetes can manage organize and scake deployments of docker containers.
+-Can deploy docker containers across multiple (virutal) machines
+-Allows users to acces certain applications and block acces to others
+-Can automate deployments.
+
+Work process:
+Task -> Develop the application -> create docker container for the applications -> launch it on kubernetes
+
+Architecture:
+A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. 
+Worker nodes host the Pods that are the components of the application workload. 
+The control plane manages the worker nodes and the Pods in the cluster. In production environments, the control plane usually runs across multiple computers and a cluster usually runs multiple nodes, providing fault-tolerance and high availability.”
+
+See pp picture
+
+Control Plane / Kubernetes Master
+Scheduler
+Makes sure that the number of desired pods is always running
+Keeps track of capacity and resources of nodes
+Assigns work to nodes based on availability
+Controller: responsible for registering nodes and monitoring health
+etcd
+A persistent and distributed key-value data store
+Stores the state and configuration data for the entire cluster
+API-server: main access point to the control plane and master node
+
+Building blocks kubernetes:
+-Pods ->group of containers working together
+-Services and EndPoints -> abstraction that defines lgical set of pods
+-Deployments ->is a YAML object that defines the pods and the number of container instances, called replicas, for each pod
+-ReplicaSets -> YOU DEFINE NUMBER OF REPLICAS RUNNING WITH CLUSTER
+-DaemonSets -> ensures that all (or some) Nodes run a copy of a Pod
+-StatefulSets -> a StatefulSet manages Pods that are based on an identical container spec. 
+-Ingress ->
+-PersistentVolumes and PersistentVolumeClaims
+-ConfigMaps and Secrets-> Decouple configurations from hard-coded environment variables
+
